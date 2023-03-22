@@ -3,7 +3,7 @@ import toml
 
 
 #load toml file
-config = toml.load('./config/config.toml')
+config = toml.load('./settings/settings.toml')
 # Setting up the app
 app = Flask(__name__)
 
