@@ -1,4 +1,6 @@
 
+title = "Testing toml configuration"
+
 [project]
 name = "Toml Setup"
 description = "Helps to config toml file properly"

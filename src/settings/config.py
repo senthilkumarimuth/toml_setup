@@ -7,3 +7,4 @@ config = toml.load(os.path.join(file_path,'config.toml'))
 
 if __name__ == "__main__":
     print(config['environments']['dev']['ip'])
+    print(config['title'])

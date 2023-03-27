@@ -3,7 +3,8 @@ from settings.config import config
 
 
 
-#load toml file
+#Test toml file
+print(config['title'])
 
 # Setting up the app
 app = Flask(__name__)
