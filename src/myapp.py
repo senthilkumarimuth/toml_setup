@@ -1,9 +1,10 @@
 from flask import Flask
-import toml
+from settings.config import config
+
 
 
 #load toml file
-config = toml.load('./settings/settings.toml')
+
 # Setting up the app
 app = Flask(__name__)
 
