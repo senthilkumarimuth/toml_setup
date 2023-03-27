@@ -1,5 +1,5 @@
 
-title = "Testing toml configuration"
+title = "Testing toml configuration"  # Project level parameter
 
 [project]
 name = "Toml Setup"
